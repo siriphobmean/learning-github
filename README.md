@@ -23,7 +23,7 @@ link : https://youtu.be/fOlDcMStMXE?si=SZ6m4jAaE8V2TkxA
 ---
 
 - การ Merge ถ้าเข้า main โดยตรงจะไม่ผ่านการอนุญาตจากใคร แต่ถ้าใช้ pull request จะเป็นเหมือนการสร้างเว็บบอร์ดสำหรับคุยกัน แล้วจะมีคนที่ได้รับหน้าที่ให้อนุมัติ มาทำการ merge จาก brach แยกสู่ main
-- interminal: git merge name-branch --no-ff
+- in terminal: git merge name-branch --no-ff
 
 ---
 
@@ -31,3 +31,5 @@ link : https://youtu.be/fOlDcMStMXE?si=SZ6m4jAaE8V2TkxA
 - in terminal: git checkout -b issue-number(task) 
 - กรณีของ Open คือ ประเด็นหรือปัญหานั้น ยังคุยหรือจัดการไม่เสร็จ
 - กรณีของ Close คือ ประเด็นหรือปัญหานั้น คุยหรือจัดการเสร็จเรียบร้อยแล้ว
+
+- Conflict คือปัญหาระหว่างการทำงานแล้วจะเอาโค้ดขึ้น github เช่น แก้ไขไฟล์เดียวกันแล้วมันชนกัน จึงต้องเลือกจัดการในข้อความที่แสดงขึ้นมาของ conflict ว่าจะใช้ตัวไหน
